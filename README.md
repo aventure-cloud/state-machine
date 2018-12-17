@@ -21,6 +21,8 @@ State machine for Laravel based applications
 This command publish a new configuration file in your `config` directory
 to list all state graphs that you want use in your application.
 
+The default config file ships with a complete graph example.
+
 ## Eloquent model integration
 Add `HasStateMachine` trait to the eloquent model which you want manage its state:
 
@@ -47,12 +49,12 @@ class Order extends Model
      */
     protected function stateMachineConfig() : array
     {
+	    // This is the name of the graph in the "state-machine.php" config file
         return [
             'graph' => 'order',
         ];
     }
-    
-    ...
+}
 ```
 
 
@@ -80,13 +82,12 @@ class Order extends Model
      */
     protected function stateMachineConfig() : array
     {
+	    // This is the name of the graph in the "state-machine.php" config file
         return [
-			// This is the name of the graph in the "state-machine.php" config file
             'graph' => 'order',
         ];
     }
-    
-    ...
+}
 ```
 
 
@@ -94,6 +95,7 @@ class Order extends Model
 StateMachine provide you two main hooks to control the transition between states:
 - Transitioning
 - Transited
+
 to point before and after every status change.
 
 In the example below in your `EventServiceProvider` you can point before and after Order's "accept" transition.
@@ -114,12 +116,11 @@ class EventServiceProvider extends ServiceProvider
         'state_machine.transited.order.accept' => [
             ListenAfterOrderIsAccepted::class,
         ],
-	];
-	
-	...
+    ];
+}
 ```
 
-The name of the event is dynamically composed using the convention below:
+The name of the events is dynamically composed using the convention below:
 
 ```
 // Before trantion execution
