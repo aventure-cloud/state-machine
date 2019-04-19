@@ -1,22 +1,22 @@
 # Laravel State Machine
 
 
-[![Latest Stable Version](https://poser.pugx.org/aventure-cloud/state-machine/v/stable)](https://packagist.org/packages/aventure-cloud/state-machine)
-[![Total Downloads](https://poser.pugx.org/aventure-cloud/state-machine/downloads)](https://packagist.org/packages/aventure-cloud/state-machine)
-[![License](https://poser.pugx.org/aventure-cloud/state-machine/license)](https://packagist.org/packages/aventure-cloud/state-machine)
+[![Latest Stable Version](https://poser.pugx.org/log-engine/state-machine/v/stable)](https://packagist.org/packages/log-engine/state-machine)
+[![Total Downloads](https://poser.pugx.org/log-engine/state-machine/downloads)](https://packagist.org/packages/log-engine/state-machine)
+[![License](https://poser.pugx.org/log-engine/state-machine/license)](https://packagist.org/packages/log-engine/state-machine)
 
-- **Author:** Valerio Barbera - [support@gistmetrics.com](mailto:support@gistmetrics.com)
-- **Author Website:** [www.gistmetrics.com](target="_blank":https://www.gistmetrics.com) 
+- **Author:** Valerio Barbera - [support@logengine.dev](mailto:support@logengine.dev)
+- **Author Website:** [www.logengine.dev](target="_blank":https://www.logengine.dev) 
 
 
 State machine for Laravel based applications
 
 
 ## Install
-``` composer require aventure-cloud/state-machine ```
+``` composer require log-engine/state-machine ```
 
 ## Config
-``` php artisan vendor:publish --provider="AventureCloud\StateMachine\ServiceProvider" ```
+``` php artisan vendor:publish --provider="LogEngine\StateMachine\ServiceProvider" ```
 
 This command publish a new configuration file in your `config` directory
 to list all state graphs that you want use in your application.
