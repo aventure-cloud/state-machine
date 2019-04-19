@@ -1,6 +1,6 @@
 <?php
 
-namespace AventureCloud\StateMachine\Events;
+namespace LogEngine\StateMachine\Events;
 
 use Illuminate\Queue\SerializesModels;
 
