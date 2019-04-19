@@ -1,12 +1,12 @@
 {
-    "name": "aventure-cloud/state-machine",
+    "name": "log-engine/state-machine",
     "description": "State machine with laravel/eloquent integration",
     "keywords": ["laravel", "state machine", "php"],
     "license": "MIT",
     "authors": [
         {
             "name": "Valerio Barbera",
-            "email": "valerio@aventuresrl.com"
+            "email": "support@logengine.dev"
         }
     ],
     "require": {
@@ -19,7 +19,7 @@
     },
     "autoload": {
         "psr-4": {
-            "AventureCloud\\StateMachine\\": "src/"
+            "LogEngine\\StateMachine\\": "src/"
         }
     },
     "autoload-dev": {
@@ -30,7 +30,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "AventureCloud\\StateMachine\\ServiceProvider"
+                "LogEngine\\StateMachine\\ServiceProvider"
             ]
         }
     },
