@@ -9,7 +9,7 @@
 - **Author Website:** [www.logengine.dev](target="_blank":https://www.logengine.dev) 
 
 
-State machine for Laravel based applications
+State machine for Laravel based applications.
 
 
 ## Install
