@@ -1,6 +1,6 @@
 <?php
 
-namespace LogEngine\StateMachine;
+namespace Aventure\StateMachine;
 
 use Illuminate\Support\ServiceProvider as BaseServiceProvider;
 

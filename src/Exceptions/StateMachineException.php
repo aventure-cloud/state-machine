@@ -1,6 +1,6 @@
 <?php
 
-namespace LogEngine\StateMachine\Exceptions;
+namespace Aventure\StateMachine\Exceptions;
 
 class StateMachineException extends \Exception
 {

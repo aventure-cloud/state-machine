@@ -1,9 +1,9 @@
 # Laravel State Machine
 
 
-[![Latest Stable Version](https://poser.pugx.org/log-engine/state-machine/v/stable)](https://packagist.org/packages/log-engine/state-machine)
-[![Total Downloads](https://poser.pugx.org/log-engine/state-machine/downloads)](https://packagist.org/packages/log-engine/state-machine)
-[![License](https://poser.pugx.org/log-engine/state-machine/license)](https://packagist.org/packages/log-engine/state-machine)
+[![Latest Stable Version](https://poser.pugx.org/ilvalerione/state-machine/v/stable)](https://packagist.org/packages/ilvalerione/state-machine)
+[![Total Downloads](https://poser.pugx.org/ilvalerione/state-machine/downloads)](https://packagist.org/packages/ilvalerione/state-machine)
+[![License](https://poser.pugx.org/ilvalerione/state-machine/license)](https://packagist.org/packages/ilvalerione/state-machine)
 
 - **Author:** Valerio Barbera - [support@logengine.dev](mailto:support@logengine.dev)
 - **Author Website:** [www.logengine.dev](target="_blank":https://www.logengine.dev) 
@@ -13,10 +13,10 @@ State machine for Laravel based applications
 
 
 ## Install
-``` composer require log-engine/state-machine ```
+``` composer require ilvalerione/state-machine ```
 
 ## Config
-``` php artisan vendor:publish --provider="LogEngine\StateMachine\ServiceProvider" ```
+``` php artisan vendor:publish --provider="Aventure\StateMachine\ServiceProvider" ```
 
 This command publish a new configuration file in your `config` directory
 to list all state graphs that you want use in your application.

@@ -1,5 +1,5 @@
 {
-    "name": "log-engine/state-machine",
+    "name": "ilvalerione/state-machine",
     "description": "State machine with laravel/eloquent integration",
     "keywords": ["laravel", "state machine", "php"],
     "license": "MIT",
@@ -19,7 +19,7 @@
     },
     "autoload": {
         "psr-4": {
-            "LogEngine\\StateMachine\\": "src/"
+            "Aventure\\StateMachine\\": "src/"
         }
     },
     "autoload-dev": {
@@ -30,7 +30,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "LogEngine\\StateMachine\\ServiceProvider"
+                "Aventure\\StateMachine\\ServiceProvider"
             ]
         }
     },

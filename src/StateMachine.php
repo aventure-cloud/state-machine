@@ -1,9 +1,9 @@
 <?php
 
-namespace LogEngine\StateMachine;
+namespace Aventure\StateMachine;
 
-use LogEngine\StateMachine\Events\TransitionEvent;
-use LogEngine\StateMachine\Exceptions\StateMachineException;
+use Aventure\StateMachine\Events\TransitionEvent;
+use Aventure\StateMachine\Exceptions\StateMachineException;
 use Symfony\Component\PropertyAccess\PropertyAccessor;
 
 class StateMachine

@@ -1,9 +1,9 @@
 <?php
 
-namespace LogEngine\StateMachine\Traits;
+namespace Aventure\StateMachine\Traits;
 
-use LogEngine\StateMachine\Exceptions\StateMachineException;
-use LogEngine\StateMachine\StateMachine;
+use Aventure\StateMachine\Exceptions\StateMachineException;
+use Aventure\StateMachine\StateMachine;
 
 trait HasStateMachine
 {
